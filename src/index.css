@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  width: 700px;
+  margin: 50px auto 0;
+  padding: 10px 0;
+  background-color: lightgrey;
+}
+
+.add-post {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fff;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.btn-add-post {
+  background-color: rgb(47, 136, 209);
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  color: gray;
+}
+
+.postAddForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.close-form, .postAddForm-btn {
+  align-self: flex-end;
+}
+
+.postAddForm-btn, .post-btn-edit, .btn-save {
+  background-color: rgb(47, 136, 209);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.post-item {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header-post {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  background: url('./img/Vadim_48.jpg');
+  height: 48px;
+  width: 48px;
+  margin-right: 30px;
+}
+.comment-avatar {
+  margin-right: 20px;
+  background: url('./img/Vadim_30.jpg');
+  height: 30px;
+  width: 30px;
+}
+
+.user-name {
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(34, 101, 156);
+}
+
+.post-title, .post-content {
+  color: black;
+}
+
+.post-item-edit_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-edit-del, .close-form {
+  height: 30px;
+  background-color: inherit;
+  color: gray;
+  border-color: inherit;
+  cursor: pointer;
+}
+
+input {
+  height: 25px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.form-edit {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-edit-textarea {
+  min-height: 120px;
+}
+
+.form-edit button {
+  align-self: flex-end;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post-item-info {
+  background-color: #fff;
+  margin: 10px 10px 0;
+  padding: 10px
+}
+
+.post-btn-edit {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.post-btn-delete {
+  background-color: rgb(224, 25, 25);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
