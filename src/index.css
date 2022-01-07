@@ -76,6 +76,7 @@ a {
 .header-post {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .avatar {
@@ -95,9 +96,14 @@ a {
   font-size: 20px;
   font-weight: bold;
   color:rgb(34, 101, 156);
+  margin-right: 10px;
 }
 
-.post-title, .post-content {
+.post-content {
+  font-size: 28px;
+}
+
+.post-created, .post-content {
   color: black;
 }
 

@@ -9,20 +9,7 @@ const app = new Koa();
 app.use(cors());
 app.use(koaBody({json: true}));
 
-let posts = [
-    // {
-    //     userId: 1,
-    //     id: 0,
-    //     title: 'React',
-    //     content: 'Пост, относящийся к курсу React!'
-    // },
-    // {
-    //     userId: 1,
-    //     id: 1,
-    //     title: 'React',
-    //     content: 'Другой пост, относящийся к курсу по React!'
-    // }
-];
+let posts = [];
 let nextId = 1;
 
 const router = new Router();
